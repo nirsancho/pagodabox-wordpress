@@ -2,7 +2,7 @@ web1:
   name: wordpress-web1
   php_display_errors: "0"
   document_root: wordpress/
-  shared_writable_dirs: wordpress/wp-content/
+  shared_writable_dirs: wordpress/
   after_build:
     - "cp -rv wp-default/. wordpress/"
     - "cp -rv wordpress/wp-content/ wp-default/"
