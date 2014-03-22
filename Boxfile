@@ -17,6 +17,7 @@ web1:
     - mcrypt
     - zip
     - curl
+    - ssh2
 
 db1:
   name: wordpress-db1
